@@ -1,0 +1,50 @@
+1. **Lambda Expressions**
+   - Syntax and structure of lambdas
+   - Functional interfaces (e.g., `Predicate`, `Consumer`, `Function`, `Supplier`)
+   - Lambda vs anonymous inner classes
+
+2. **Streams API**
+   - Creating streams (e.g., `Stream.of()`, `Arrays.stream()`, `Collection.stream()`)
+   - Stream operations: Intermediate (map, filter, sorted) and terminal (collect, forEach, reduce)
+   - Parallel streams and performance considerations
+   - Stream collectors (e.g., `Collectors.toList()`, `Collectors.groupingBy()`, `partitioningBy()`)
+
+3. **Functional Interfaces**
+   - `Predicate`, `Function`, `Consumer`, `Supplier`
+   - Custom functional interfaces
+   - Use cases in lambda expressions
+
+4. **Default and Static Methods in Interfaces**
+   - Defining default methods in interfaces
+   - Static methods in interfaces
+   - Multiple inheritance and the diamond problem
+
+5. **Optional Class**
+   - Purpose and usage of `Optional`
+   - `Optional` methods: `orElse()`, `orElseGet()`, `isPresent()`, `ifPresent()`, `map()`, `flatMap()`
+
+6. **Date and Time API (`java.time` package)**
+   - Working with `LocalDate`, `LocalTime`, `LocalDateTime`, `ZonedDateTime`
+   - Parsing and formatting dates (`DateTimeFormatter`)
+   - `Duration` and `Period`
+   - Time zones and daylight savings handling
+
+7. **Collectors API**
+   - Collecting results of stream operations
+   - Using `Collectors.toList()`, `Collectors.joining()`, `Collectors.groupingBy()`, `partitioningBy()`
+
+8. **Method References**
+   - Types of method references: static methods, instance methods, and constructor references
+   - Usage and advantages over lambdas
+
+9. **Concurrency Enhancements**
+   - `CompletableFuture` for asynchronous programming
+   - New methods in `ConcurrentHashMap`
+
+10. **Nashorn JavaScript Engine**
+    - Running JavaScript from Java using the Nashorn engine
+    - Integration between Java and JavaScript
+
+11. **Annotations**
+    - `@FunctionalInterface` annotation
+    - Repeating annotations and `@Repeatable`
